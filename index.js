@@ -31,6 +31,7 @@ const ytdl = require('ytdl-core');
 const search = require('yt-search');
 const configs = require("./configs.json");
 const timestamp = require("console-timestamp");
+bot.login(process.env.token)
 var botConfigs = {
     token: "NjA5ODQ2MDgwMjg0MjYyNDMy.XVA6mg.rorriTPJ0xUbYhcYaUWGcJG_jU0",
     prefix: "$",
